@@ -1,0 +1,27 @@
+.home_background{
+    background: url("https://images7.alphacoders.com/475/thumb-1920-475264.jpg");
+    background-position: center;
+    min-height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@media screen and (max-width: 670px){
+    .home_background{
+        max-height: 200px;
+    }
+}
+section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#heart{
+    float: right;
+}
+#content{
+    min-height: 100rem; 
+}
+article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
